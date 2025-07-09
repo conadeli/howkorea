@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">HowKorea</a></h1>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <p>© 2025 HowKorea</p>
+    </footer>
+  </body>
+</html>

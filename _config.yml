@@ -1,0 +1,8 @@
+title: HowKorea Blog
+description: "한국 생활에 대한 모든 것"
+baseurl: ""
+url: "https://conadeli.github.io/howkorea"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
